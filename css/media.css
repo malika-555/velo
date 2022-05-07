@@ -1,0 +1,232 @@
+@media (max-width: 500px) {
+    .subscribe__form {
+        display: block;
+    }
+
+    .subscribe__input {
+        padding: 0px 0px 8px 0px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .footer__row {
+        padding: 30px 0px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer__social {
+        margin: 15px 0;
+    }
+
+    .footer__address {
+        padding: 0;
+    }
+}
+
+@media (max-width: 750px) {
+    .subscribe__body {
+        padding: 50px 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .menu__body {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        background-color: #4d4959;
+        padding: 150px 0px 20px 0px;
+        overflow: auto;
+        transition: top 0.3s ease 0s;
+        top: -100%;
+    }
+
+    .menu__body._active {
+        top: 0;
+    }
+
+    .menu__list {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu__list li {
+        padding: 0px 0px 35px 0px;
+    }
+
+    .menu__list li:nth-child(2),
+    .menu__list li:nth-child(3) {
+        padding: 0px 0px 35px 0px;
+    }
+
+    .menu__list li:last-child {
+        padding: 0px;
+    }
+
+    .menu__list li::after {
+        width: 4px;
+        height: 4px;
+        background-color: #fff;
+        right: 50%;
+        top: 40px;
+        margin-right: -2px;
+    }
+
+    .menu__list li:nth-child(2)::after {
+        display: block;
+    }
+
+    .menu__list li:nth-child(4)::after {
+        display: none;
+    }
+
+    .menu__link {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .header {
+        top: 15px;
+    }
+
+    .icon__menu {
+        display: block;
+        position: absolute;
+        top: 33px;
+        right: 15px;
+        width: 30px;
+        height: 18px;
+        cursor: pointer;
+        z-index: 5;
+    }
+
+    .icon__menu span,
+    .icon__menu span::after,
+    .icon__menu span::before {
+        top: 8px;
+        left: 0;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #4d4959;
+        transition: all 0.3s ease 0s;
+    }
+
+    .icon__menu span::after {
+        content: "";
+        top: -10px;
+    }
+
+    .icon__menu span::before {
+        content: "";
+        top: 10px;
+    }
+
+    .icon__menu._active span {
+        background-color: transparent;
+    }
+
+    .icon__menu._active span::before {
+        top: 0;
+        transform: rotate(45deg);
+        background-color: #fff;
+    }
+
+    .icon__menu._active span::after {
+        top: 0;
+        transform: rotate(-45deg);
+        background-color: #fff;
+    }
+
+    .block__text_j::after {
+        margin-top: 20px;
+    }
+
+
+
+}
+
+@media (max-width: 1130px) {
+    .generation {
+        padding-top: calc(30px + (120 - 30) * ((100vw - 320px) / (1130 - 320)));
+    }
+
+    .generation {
+        padding-bottom: calc(30px + (120 - 30) * ((100vw - 320px) / (1130 - 320)));
+    }
+
+    .brands__content {
+        padding-top: calc(30px + (54 - 30) * ((100vw - 320px) / (1130 - 320)));
+    }
+
+    .brands__content {
+        padding-bottom: calc(30px + (54 - 30) * ((100vw - 320px) / (1130 - 320)));
+    }
+    .slider__text{
+        font-size: calc(18px + (24 - 16) * ((100vw - 320px) / (1130 - 320)));
+    }
+    .swiper-slide {
+        padding-top: calc(30px + (120 - 30) * ((100vw - 320px) / (1130 - 320)));
+    }
+    .swiper-slide {
+        padding-bottom: calc(90px + (190 - 90) * ((100vw - 320px) / (1130 - 320)));
+    }
+    .swiper-pagination {
+        padding-bottom: calc(30px + (70 - 30) * ((100vw - 320px) / (1130 - 320)));
+    }
+}
+
+@media (max-width: 1100px) {
+    .brands__row {
+        flex-direction: column;
+    }
+
+    .brands__content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .slider {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .item {
+        height: auto;
+        padding-bottom: 70%;
+    }
+
+    .shop__body {
+        flex-wrap: wrap;
+    }
+
+    .shop__column {
+        flex: 0 1 50%;
+    }
+
+    .shop__column:first-child {
+        flex: 1 1 100%;
+    }
+
+    .shop__column:last-child {
+        flex: 1 1 100%;
+    }
+
+    .shop__btn {
+        padding: 0px 30px;
+    }
+
+    .shop__footer {
+        padding: 50px 0px;
+
+    }
+
+    .footer__row {
+        padding: 50px 0px;
+
+    }
+}
